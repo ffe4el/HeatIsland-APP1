@@ -5,7 +5,7 @@
 
 <h3>개발환경</h3>
 <hr>
-- Android compileSdk 34
+-Android compileSdk 34
 - Android tartgetSdk 34
 - emulator: Pixel 7 Pro API 34
 - lang: Java 17
