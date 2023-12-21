@@ -6,7 +6,7 @@ HeatIsland-APP
 <div align="center">
 <img width="259" alt="스크린샷 2023-12-20 오전 11 23 01" src="https://github.com/ffe4el/HeatIsland-APP/assets/93892724/ba8e12d9-2b7c-4fa5-a43d-f2f2c9a12716"></div>
 
-### ⏰ Development Period
+### ⏰ Develop Period
 ---
 - November 2023 ~ December 2023
 <br>
