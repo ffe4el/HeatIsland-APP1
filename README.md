@@ -80,7 +80,7 @@ HeatIsland-APP
 
 ### 📌 Main Function
 ---
-#### 도시열섬지도
+#### **도시열섬지도**
 <div align="center">
 <img width="394" alt="스크린샷 2023-12-20 오후 3 35 36" src="https://github.com/ffe4el/HeatIsland-APP/assets/93892724/78f64844-b3d6-4fdc-bf64-91cd692a0861"></div>
 <br>
@@ -92,7 +92,7 @@ HeatIsland-APP
 - S-Dot  유동인구 & 도시데이터 CSV 사용 
 <br>
 
-#### 무더위쉼터지도
+#### **무더위쉼터지도**
 <div align="center"><img width="150" alt="image" src="https://github.com/ffe4el/HeatIsland-APP/assets/93892724/4555303d-99dd-4d3c-826b-992b5a22b46f"></div>
 <br>
 
@@ -103,7 +103,7 @@ HeatIsland-APP
 - 서울시 무더위 쉼터 open API 사용 및 데이터 parse 함수를 이용하여 전처리
 <br>
 
-#### 공유우산지도
+#### **공유우산지도**
 <div align="center"><img width="150" alt="image" src="https://github.com/ffe4el/HeatIsland-APP/assets/93892724/bd1a982b-ebf2-4cd7-82a5-c30382257702"></div>
 <br>
 
@@ -112,7 +112,7 @@ HeatIsland-APP
 - 서비스 사용자는 아이콘을 통하여 손쉽게 공유 우산 조회 가능
 <br>
 
-#### 커뮤니티
+#### **커뮤니티**
 <div align="center"><img width="150" alt="image" src="https://github.com/ffe4el/HeatIsland-APP/assets/93892724/b60fc066-80eb-457f-8cea-856827bf2e02">
 <img width="150" alt="image" src="https://github.com/ffe4el/HeatIsland-APP/assets/93892724/8c24545e-9778-4d57-b77b-30ce439b641a"></div>
 <br>
@@ -123,7 +123,7 @@ HeatIsland-APP
 - DB연동, SQL 사용
 <br>
 
-#### 살수차투표
+#### **살수차투표**
 <div align="center"><img width="150" alt="image" src="https://github.com/ffe4el/HeatIsland-APP/assets/93892724/f80818e9-a0ce-4257-a584-f442cf8e7172"></div>
 <br>
 
