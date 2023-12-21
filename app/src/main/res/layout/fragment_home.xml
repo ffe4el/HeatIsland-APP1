@@ -7,30 +7,57 @@
     android:layout_height="match_parent"
     android:layout_gravity="center"
     android:orientation="vertical"
+    android:background="@drawable/back"
     tools:context=".HomeFragment">
 
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center">
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        >
 
         <androidx.viewpager2.widget.ViewPager2
             android:id="@+id/viewpager"
-            android:layout_width="match_parent"
-            android:layout_height="400dp"
+            android:layout_width="340dp"
+            android:layout_height="471dp"
             android:layout_gravity="top|center"
-            android:layout_marginTop="70dp"
-            android:layout_marginBottom="10dp"
+            android:layout_marginTop="50dp"
             android:clipChildren="false"
             android:clipToPadding="false"
             android:scaleType="fitXY" />
 
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&lt;"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/black"
+            android:textSize="40dp"
+            android:layout_gravity="center_vertical"/>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&gt;"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/black"
+            android:textSize="40dp"
+            android:layout_gravity="center_vertical|right"
+            />
+
+
     </FrameLayout>
 
     <ListView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
         android:id="@+id/listView"
+        android:layout_width="340dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:background="@drawable/square_background_border_black"
         android:visibility="visible">
 
     </ListView>

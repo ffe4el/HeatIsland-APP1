@@ -57,7 +57,7 @@ public class Shared_UmbrellaFragment extends Fragment implements OnMapReadyCallb
     public Button button2;
 
 
-    public ImageButton imageButton;
+    public Button imageButton;
 
     //현재 위도 & 경도 임의 설정
     private double current_latitude = 37.5;
@@ -159,7 +159,7 @@ public class Shared_UmbrellaFragment extends Fragment implements OnMapReadyCallb
                 .title("현재 위치"));
 
         mMap.moveCamera(CameraUpdateFactory.newLatLng(myLocation.getPosition()));
-        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(myLocation.getPosition(), 23));
+        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(myLocation.getPosition(), 12));
 
         for (int i = 0; i < markerList.size(); i++) {
             if (markerList.get(i).getPosition().longitude == current_hardness && markerList.get(i).getPosition().latitude == current_latitude) {
@@ -387,7 +387,7 @@ public class Shared_UmbrellaFragment extends Fragment implements OnMapReadyCallb
 
                     // 카메라 이동
                     mMap.moveCamera(CameraUpdateFactory.newLatLng(newMarkerLocation));
-                    mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(newMarkerLocation, 23));
+                    mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(newMarkerLocation, 12));
 
                     Toast.makeText(getActivity(), "현재 위치에 새로운 장소가 등록되었습니다", Toast.LENGTH_SHORT).show();
                 }

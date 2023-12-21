@@ -17,8 +17,13 @@
         android:id="@+id/bottombarView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/round_corner"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:itemIconTint="@menu/menu_selector_color"
+        app:itemTextColor="@menu/menu_selector_color"
+        app:itemBackground="@menu/bottom_nav_indicator"
+        android:background="@drawable/round_border2"
         app:menu="@menu/bottom_bar"
-        tools:ignore="MissingConstraints" />
+        android:layout_gravity="bottom"
+        tools:ignore="MissingConstraints"
+        />
 </androidx.constraintlayout.widget.ConstraintLayout>

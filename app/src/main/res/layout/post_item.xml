@@ -55,6 +55,14 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginBottom="8dp"
         android:scaleType="centerCrop"/>
+    <TextView
+        android:id="@+id/postContentTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="16sp"
+        android:layout_marginBottom="8dp"/>
 
 
     <LinearLayout
@@ -66,7 +74,7 @@
             android:id="@+id/CommentButton"
             android:layout_width="25dp"
             android:layout_height="25dp"
-            android:layout_marginLeft="10dp"
+            android:layout_marginLeft="30dp"
             android:layout_marginRight="10dp"
             android:layout_marginBottom="10dp"
             android:background="@android:color/transparent"
@@ -87,14 +95,6 @@
             android:src="@drawable/ic_delete" />
     </LinearLayout>
 
-    <TextView
-        android:id="@+id/postContentTextView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
-        android:textSize="16sp"
-        android:layout_marginBottom="8dp"
-        />
+
 
 </LinearLayout>

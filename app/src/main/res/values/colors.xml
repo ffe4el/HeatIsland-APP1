@@ -3,6 +3,11 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="purple">#8A2BE2</color>
-    <color name="yellow">#F4FF81 </color>
-    <color name="green">#99FF99 </color>
+
+    <color name="peach">#FFECD2</color>
+    <color name="peach1">#Fcb69f</color>
+    <color name="peach2">#Ffe4e1</color>
+    <color name="yellow">#f5b912</color>
+    <color name="green">#92B431</color>
+    <color name="darkgreen">#36A05c</color>
 </resources>

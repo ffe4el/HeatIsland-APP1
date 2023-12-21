@@ -107,7 +107,6 @@ public class WaterCarFragment extends Fragment implements onListItemSelectedInte
         adapter.filterList(filteredList);
     }
     public void onItemSelected(View v, int position){
-        Toast.makeText(getContext(),"pos : "+position,Toast.LENGTH_SHORT).show();
         voteCount[position]++;
     }
 

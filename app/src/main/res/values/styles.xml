@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Projec7" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/green</item>
+        <item name="colorPrimaryDark">@color/darkgreen</item>
+    </style>
+</resources>

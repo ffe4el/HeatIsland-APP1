@@ -59,7 +59,7 @@ public class RecyclerviewAdapter extends RecyclerView.Adapter<RecyclerviewAdapte
                         v.setBackgroundColor(Color.WHITE);
                     } else {
                         mSelectedItems.put(position,true);
-                        v.setBackgroundColor(Color.rgb(255,152,00));
+                        v.setBackgroundColor(Color.rgb(54,160,92));
                         mListener.onItemSelected(v,getAdapterPosition());
                         Log.d("test","pos = "+getAdapterPosition());
                     }

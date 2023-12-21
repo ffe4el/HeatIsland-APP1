@@ -19,7 +19,8 @@
                 android:id="@+id/resultTextView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="지도 연결 중" />
+                android:gravity="center"
+                android:text="지도 연결 중 ---" />
 
         </LinearLayout>
     </ScrollView>
@@ -28,6 +29,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
+        android:backgroundTint="@color/darkgreen"
+        android:background="@drawable/round_border2"
         app:menu="@menu/bottom_bar"
         android:layout_alignParentBottom="true"
         tools:ignore="MissingConstraints"

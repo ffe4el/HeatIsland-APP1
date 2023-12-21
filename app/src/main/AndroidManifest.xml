@@ -18,6 +18,29 @@
         android:usesCleartextTraffic="true"
         tools:overrideLibrary="com.android.car.ui"
         tools:targetApi="31">
+
+        <!-- 여기 구글맵 api자리 -->
+
+        <!--        시작로딩-->
+        <activity android:name=".IntroActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".navigator"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
         <activity
             android:name=".HeatShelterAPI"
             android:exported="true">
@@ -36,18 +59,8 @@
 
         <meta-data
             android:name="com.google.android.actions"
-            android:resource="@drawable/click_color" /> 
-            <!-- 여기 구글맵 api자리 -->
+            android:resource="@drawable/click_color" />
 
-        <activity
-            android:name=".navigator"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
         <activity
             android:name=".HeatShelterMapFragment"
             android:exported="true"

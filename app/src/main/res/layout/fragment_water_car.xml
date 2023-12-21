@@ -31,6 +31,10 @@
             android:layout_height="45dp"
             android:layout_gravity="center"
             android:text="투표하기"
+            android:backgroundTint="@color/darkgreen"
+            android:fontFamily="@font/nanum"
+            android:textColor="@color/white"
+
             android:textSize="18dp" />
     </LinearLayout>
 

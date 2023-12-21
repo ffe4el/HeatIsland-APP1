@@ -39,7 +39,7 @@ import java.util.HashMap;
 public class HeatShelterAPI extends AppCompatActivity {
 
     private TextView resultTextView;
-    String key="여기에 Api 키 넣으면 됩니다";
+    String key="여기서 서울시 API키 입력";
     String data;
 
     //파싱한 좌표 데이터를 저장하는 ArrayList 선언

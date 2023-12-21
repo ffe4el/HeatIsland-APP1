@@ -10,7 +10,10 @@
         android:id="@+id/spinner"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="20dp" />
+        android:layout_margin="30dp"
+        android:background="@drawable/round_border"
+        android:backgroundTint="#d3d3de"
+        />
 
     <ImageView
         android:id="@+id/iv_korea"
@@ -44,5 +47,18 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/iv_korea" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="160dp"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="120dp"
+        android:text=" 서울시 지도📍"
+        android:textSize="30dp"
+        android:fontFamily="@font/nanum"/>
+
+
 
 </FrameLayout>

@@ -6,10 +6,13 @@
 
     <TextView
         android:id="@+id/name"
-        android:layout_width="match_parent"
+        android:layout_width="46dp"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
-        android:text="익명" />
+        android:background="@drawable/round_border"
+        android:backgroundTint="@color/darkgreen"
+        android:textColor="@color/white"
+        android:text="   익명" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -22,13 +25,14 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
             android:layout_weight="1"
-            android:layout_marginBottom="10dp" />
+            android:background="@drawable/round_border" />
 
         <ImageButton
             android:id="@+id/deleteButton"
             android:layout_width="25dp"
-            android:layout_height="25dp"
+            android:layout_height="34dp"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
             android:layout_marginBottom="10dp"
@@ -36,7 +40,6 @@
             android:padding="0dp"
             android:scaleType="centerCrop"
             android:src="@drawable/ic_delete" />
-
 
 
     </LinearLayout>

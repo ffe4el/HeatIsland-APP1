@@ -9,13 +9,14 @@
     android:background="@android:color/white"
     android:gravity="center"
     android:orientation="vertical"
+    android:layout_gravity="center"
     tools:context=".voteResult">
 
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="투표완료"
+        android:text="      투표 완료 ✅"
         android:textSize="40sp"
     />
 
@@ -25,6 +26,8 @@
         android:layout_height="45dp"
         android:layout_gravity="center"
         android:text="메인으로"
+        android:backgroundTint="@color/darkgreen"
+        android:fontFamily="@font/nanum"
         android:textSize="17dp" />
 
 </LinearLayout>

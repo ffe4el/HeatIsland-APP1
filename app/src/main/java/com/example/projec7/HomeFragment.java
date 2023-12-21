@@ -5,6 +5,8 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 import androidx.viewpager2.adapter.FragmentStateAdapter;
+import androidx.viewpager2.widget.CompositePageTransformer;
+import androidx.viewpager2.widget.MarginPageTransformer;
 import androidx.viewpager2.widget.ViewPager2;
 
 import android.annotation.SuppressLint;
@@ -49,6 +51,7 @@ public class HomeFragment extends Fragment {
         mPager = view.findViewById(R.id.viewpager);
         mPager.setClipToOutline(true);
 
+
         pagerAdapter = new MyAdapter(getActivity(), num_page);
         mPager.setAdapter(pagerAdapter);
 
@@ -57,6 +60,24 @@ public class HomeFragment extends Fragment {
 
         mPager.setCurrentItem(1002);
         mPager.setOffscreenPageLimit(3);
+
+
+        CompositePageTransformer transformer = new CompositePageTransformer();
+
+        // MarginPageTransformer 추가
+        transformer.addTransformer(new MarginPageTransformer(8));
+
+        // 사용자 정의 PageTransformer 추가
+        transformer.addTransformer(new ViewPager2.PageTransformer() {
+            @Override
+            public void transformPage(@NonNull View view, float position) {
+                float v = 1 - Math.abs(position);
+                view.setScaleY(0.8f + v * 0.2f);
+            }
+        });
+
+        // ViewPager2에 변환 효과 적용
+        mPager.setPageTransformer(transformer);
 
 
 

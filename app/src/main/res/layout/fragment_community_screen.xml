@@ -5,6 +5,7 @@
     android:id="@+id/community_screen"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     tools:context=".CommunityScreenFragment">
 
 
@@ -26,7 +27,8 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:background="@color/darkgreen">
 
             <Spinner
                 android:id="@+id/local_category"
@@ -39,24 +41,20 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"/>
-
-
         </LinearLayout>
 
         <!-- RecyclerView -->
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/recyclerView"
             android:layout_width="match_parent"
-            android:layout_height="378dp"
+            android:layout_height="464dp"
             android:layout_margin="10dp"
+            android:background="@drawable/round_border"
             tools:listitem="@layout/post_item" />
-
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-
-            >
+            android:layout_height="wrap_content">
 
             <Button
                 android:id="@+id/WriteButton"
@@ -71,7 +69,7 @@
                 android:layout_marginBottom="10dp"
                 android:padding="0dp"
                 android:scaleType="centerCrop"
-                android:background="@color/green"
+                android:backgroundTint="@color/darkgreen"
                 android:textSize="40dp"
                 android:gravity="center"
                 android:text="+" />
@@ -80,10 +78,13 @@
                 android:id="@+id/WaterCarButton"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:layout_margin="15dp"
+                android:layout_marginStart="15dp"
                 android:layout_marginLeft="10dp"
-                android:scaleType="centerCrop"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="15dp"
                 android:background="@android:color/transparent"
+                android:scaleType="centerCrop"
                 android:src="@drawable/ic_watercar" />
         </RelativeLayout>
 
