@@ -34,17 +34,6 @@ HeatIsland-APP
 │   ├── proguard-rules.pro
 │   └── src
 ├── build.gradle
-├── final
-│   ├── README.md
-│   ├── app
-│   ├── build.gradle
-│   ├── gradle
-│   ├── gradle.properties
-│   ├── gradlew
-│   ├── gradlew.bat
-│   ├── local.properties
-│   ├── settings.gradle
-│   └── vectorchildfinder
 ├── gradle
 │   └── wrapper
 ├── gradle.properties
