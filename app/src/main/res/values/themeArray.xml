@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="theme_array">
+
+        <item>전체</item>
+        <item>시민 참여</item>
+        <item>사건/사고</item>
+        <item>아이디어</item>
+        <item>이벤트/행사</item>
+
+    </string-array>
+</resources>

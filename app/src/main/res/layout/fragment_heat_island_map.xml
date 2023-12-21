@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".HeatIslandMapFragment">
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp" />
+
+    <ImageView
+        android:id="@+id/iv_korea"
+        android:layout_width="415dp"
+        android:layout_height="500dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/seoul_districts"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/iv_tmp"
+        android:layout_width="415dp"
+        android:layout_height="500dp"
+        android:layout_marginTop="50dp"
+        android:visibility="gone"
+        android:src="@drawable/seoul_districts" />
+
+    <ImageView
+        android:id="@+id/iv_hotisland"
+        android:layout_width="415dp"
+        android:layout_height="580dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/seoul_districts"
+        android:visibility="invisible" />
+
+    <Space
+        android:id="@+id/bottomSpace"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_korea" />
+
+</FrameLayout>
