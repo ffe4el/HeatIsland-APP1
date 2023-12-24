@@ -1,5 +1,3 @@
-HeatIsland-APP
-
 ## ✅ mobile programming - 열섬현상 커뮤니티 어플 제작
 도시열섬지도, 공유우산지도, 무더위쉼터지도, 사용자 커뮤니티 및 투표서비스가 제공되는 도시열섬 어플리케이션입니다.
 <br><br>
@@ -34,17 +32,6 @@ HeatIsland-APP
 │   ├── proguard-rules.pro
 │   └── src
 ├── build.gradle
-├── final
-│   ├── README.md
-│   ├── app
-│   ├── build.gradle
-│   ├── gradle
-│   ├── gradle.properties
-│   ├── gradlew
-│   ├── gradlew.bat
-│   ├── local.properties
-│   ├── settings.gradle
-│   └── vectorchildfinder
 ├── gradle
 │   └── wrapper
 ├── gradle.properties
