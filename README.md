@@ -17,7 +17,7 @@
 - Android tartgetSdk 34
 - emulator: Pixel 7 Pro API 34
 - external library : VectorChildFinder
-- database: MySQL
+- database: MySQL, SQLlite
 <br>
 
 ### 🌳 Structure Tree
